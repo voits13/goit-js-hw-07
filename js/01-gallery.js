@@ -40,6 +40,7 @@ openModal(evt.target)
 }
 
 // Відкриття модального вікна з бібліотекою Lightbox
+
 function openModal (image) {
 instance = basicLightbox.create(
   `<img src="${image.dataset.source}"/>`,
